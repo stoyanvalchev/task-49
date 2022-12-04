@@ -5,14 +5,53 @@
     <title>HTML, CSS and SASS Boilerplate</title>
     <meta
       name="description"
-      content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+      content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1" />
   </head>
   <body>
     <div class="main">
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
     </div>
+    <form>
+      <label for="ccname">Cardholder Name</label>
+      <input
+        class="input"
+        type="text"
+        id="ccname"
+        placeholder="Name"
+        name="ccname"
+        value="" />
+
+      <label for="cardnumber">Card Number</label>
+      <input
+        class="input"
+        type="tel"
+        placeholder="1111-2222-3333-4444"
+        id="cardnumber"
+        name="cardnumber"
+        value="" />
+
+      <label for="cvc">CVC</label>
+      <input
+        class="input"
+        type="tel"
+        id="cvc"
+        maxlength="3"
+        placeholder="CVC"
+        name="cvc"
+        value="" />
+
+      <label for="cc-exp">Expiry date</label>
+      <input
+        class="input"
+        type="date"
+        id="cc-exp"
+        placeholder="exp date"
+        name="cc-exp"
+        value="" />
+    </form>
   </body>
 </html>
